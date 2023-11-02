@@ -73,6 +73,43 @@ ol {
   justify-content: space-between;
 }
 
+.search-form__fieldset-title {
+  color: #FFF;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.search-form__label-text {
+  color: #FFF;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.button {
+  color: #FFF;
+  text-align: center;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.search-form__textfield {
+  color: rgba(255, 255, 255, 0.70);
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
 .content__details {
   display: flex;
   row-gap: 26px;
@@ -91,6 +128,10 @@ ol {
   text-transform: uppercase;
 }
 
+.content__accent {
+  color: #545050;
+}
+
 .content__list {
   display: flex;
   flex-direction: column;
@@ -105,10 +146,34 @@ ol {
   padding: 2px;
 }
 
+.content__card-link {
+  color: #FFF;
+  text-decoration: none;
+}
+
 .content__video-card {
   display: grid;
   grid-template-columns: 1fr 194px;
   grid-template-rows: 103px;
+}
+
+.content__video-card-title {
+  color: #FFF;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.content__video-card-description {
+  color: #FFF;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0.9;
 }
 
 .content__video-card-thumbnail {
@@ -116,4 +181,14 @@ ol {
   height: 103px;
   background-size: cover;
 
+}
+
+.visually-hidden {
+  position: absolute;
+  inline-size: 1px;
+  block-size: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
 }
