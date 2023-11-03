@@ -100,7 +100,7 @@ ol {
   column-gap: 5px;
   /*outline: 1px solid red;*/
   align-items: center;
-  cursor: pointer;
+  /*cursor: pointer;*/
 }
 
 .search-form__pseudo-checkbox {
@@ -117,6 +117,10 @@ input[type="checkbox"]:checked + span::after {
   height: 17px;
   margin: 1px;
   background-color: white;
+}
+
+.search-form__label:has(.search-form__pseudo-checkbox):hover {
+  cursor: pointer;
 }
 
 .search-form__label-text {
@@ -171,7 +175,7 @@ input[type="checkbox"]:checked + span::after {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  cursor: pointer;
+  cursor: text;
   background-color: transparent;
   border: none;
   border-top: 1px solid #FFF;
