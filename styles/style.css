@@ -72,6 +72,7 @@ ol {
 .search-form {
   display: flex;
   justify-content: space-between;
+  height: 54px;
 }
 
 .search-form__fieldset {
@@ -218,10 +219,17 @@ input[type="checkbox"]:checked + ::after {
   font-weight: 700;
   line-height: 94%;
   text-transform: uppercase;
+  height: 210px;
 }
 
 .content__accent {
   color: #545050;
+  font-family: 'Oswald', sans-serif;
+  font-size: 75px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 94%;
+  text-transform: uppercase;
 }
 
 .content__list {
@@ -268,7 +276,7 @@ input[type="checkbox"]:checked + ::after {
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1;
+  line-height: 100%;
   text-transform: uppercase;
 }
 
