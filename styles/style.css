@@ -121,6 +121,8 @@ input[type="checkbox"]:checked + ::after {
 
 .search-form__label:has(.search-form__pseudo-checkbox):hover {
   cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .search-form__label-text {
