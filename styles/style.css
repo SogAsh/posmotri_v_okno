@@ -126,6 +126,15 @@ input[type="checkbox"]:checked + ::after {
   text-underline-offset: 2px;
 }
 
+.search-form__label:has(.search-form__pseudo-checkbox):active + ::after {
+  content: "";
+  display: block;
+  width: 17px;
+  height: 17px;
+  margin: 1px;
+  background-color: white;
+}
+
 .search-form__label-text {
   color: #FFF;
   font-family: 'Fira Sans Condensed', sans-serif;
@@ -181,6 +190,10 @@ input[type="checkbox"]:checked + ::after {
   cursor: pointer;
   text-decoration: underline;
   text-underline-offset: 2px;
+}
+
+.button:active {
+  background: #545050;
 }
 
 .search-form__textfield {
