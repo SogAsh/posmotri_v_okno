@@ -180,10 +180,19 @@ input[type="checkbox"]:checked + span {
   outline: none;
 }
 
-.search-form__textfield:focus-visible {
+.search-form__label:has(:focus) {
+  outline: none;
+}
+
+.search-form__label:has(:focus-visible) {
   outline: 1px solid #FFF;
   outline-offset: 1px;
 }
+
+/*.search-form__textfield:focus-visible {*/
+/*  outline: 1px solid #FFF;*/
+/*  outline-offset: 1px;*/
+/*}*/
 
 .content__details {
   display: flex;
