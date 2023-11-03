@@ -108,6 +108,14 @@ ol {
   border: 1px solid white;
 }
 
+input[type="checkbox"]:checked + span {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
+}
+
 .search-form__label-text {
   color: #FFF;
   font-family: 'Fira Sans Condensed', sans-serif;
