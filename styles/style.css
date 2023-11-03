@@ -110,7 +110,12 @@ ol {
   outline: 1px solid white;
 }
 
-input[type="checkbox"]:checked + span {
+input[type="checkbox"]:checked + span::after {
+  content: "";
+  display: block;
+  width: 17px;
+  height: 17px;
+  margin: 1px;
   background-color: white;
 }
 
