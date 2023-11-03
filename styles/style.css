@@ -100,21 +100,18 @@ ol {
   column-gap: 5px;
   /*outline: 1px solid red;*/
   align-items: center;
+  cursor: pointer;
 }
 
 .search-form__pseudo-checkbox {
   width: 19px;
   height: 19px;
   background-color: black;
-  border: 1px solid white;
+  outline: 1px solid white;
 }
 
 input[type="checkbox"]:checked + span {
   background-color: white;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-
 }
 
 .search-form__label-text {
@@ -124,7 +121,7 @@ input[type="checkbox"]:checked + span {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  cursor: pointer;
+
   /*width: 100%;*/
   /*width: fit-content;*/
 }
