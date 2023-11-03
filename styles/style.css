@@ -205,9 +205,20 @@ ol {
   display: flex;
   flex-direction: column;
   height: 298px;
-  overflow: scroll;
+  /*overflow: hidden scroll;*/
+  overflow-x: hidden;
+  overflow-y: scroll;
   row-gap: 30px;
   position: relative;
+  width: 100%;
+}
+
+.content__list::-webkit-scrollbar {
+  width: 5px;
+  background: transparent;
+}
+.content__list::-webkit-scrollbar-thumb {
+  background-color: black;
 }
 
 .content__list-item {
@@ -218,6 +229,8 @@ ol {
 .content__card-link {
   color: #FFF;
   text-decoration: none;
+  display: block;
+  width: 100%;
 }
 
 .content__video-card {
