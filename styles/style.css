@@ -154,9 +154,6 @@ input[type="checkbox"]:checked + ::after {
   width: 194px;
   height: 34px;
   border: 1px solid #FFF;
-  /*display: flex;*/
-  /*justify-content: center;*/
-  /*align-items: center;*/
   align-self: flex-end;
 }
 .more-button {
