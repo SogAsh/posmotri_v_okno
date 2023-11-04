@@ -193,7 +193,7 @@ input[type="checkbox"]:active + ::after {
 }
 
 .button:active {
-  background: #545050;
+  background-color: #545050;
   text-decoration: none;
 }
 
@@ -298,6 +298,17 @@ input[type="checkbox"]:active + ::after {
   display: grid;
   grid-template-columns: 1fr 194px;
   grid-template-rows: 103px;
+}
+
+.content__card-link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 2px;;
+}
+
+.content__card-link_current:active {
+  background-color: #545050;
+  text-decoration: none;
 }
 
 .content__video-card-title {
