@@ -109,6 +109,7 @@ ol {
   height: 19px;
   background-color: black;
   outline: 1px solid white;
+  margin-left: 1px;
 }
 
 input[type="checkbox"]:checked + ::after {
@@ -184,6 +185,10 @@ input[type="checkbox"]:active + ::after {
 .button:focus-visible {
   outline: 1px solid #FFF;
   outline-offset: 1px;
+}
+
+.more-button:focus-visible {
+  margin: 2px;
 }
 
 .button:hover {
