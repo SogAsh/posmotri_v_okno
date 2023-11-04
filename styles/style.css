@@ -126,14 +126,14 @@ input[type="checkbox"]:checked + ::after {
   text-underline-offset: 2px;
 }
 
-/*.search-form__label:has(.search-form__pseudo-checkbox):active + ::after {*/
-/*  content: "";*/
-/*  display: block;*/
-/*  width: 17px;*/
-/*  height: 17px;*/
-/*  margin: 1px;*/
-/*  background-color: white;*/
-/*}*/
+input[type="checkbox"]:active + ::after {
+  content: "";
+  display: block;
+  width: 17px;
+  height: 17px;
+  margin: 1px;
+  background-color: white;
+}
 
 .search-form__label-text {
   color: #FFF;
