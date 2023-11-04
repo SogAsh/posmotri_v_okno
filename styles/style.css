@@ -300,7 +300,7 @@ input[type="checkbox"]:active + ::after {
 
 .content__card-link:focus-visible {
   outline: 1px solid #FFF;
-  /*outline-offset: 1px;*/
+  outline-offset: 2px;
 }
 
 .content__video-card {
