@@ -306,6 +306,10 @@ input[type="checkbox"]:active + ::after {
   text-underline-offset: 2px;;
 }
 
+.content__card-link_current {
+  background-color: #545050;
+}
+
 .content__card-link_current:active {
   background-color: #545050;
   text-decoration: none;
