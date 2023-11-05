@@ -14,7 +14,7 @@ html {
   block-size: 100%;
   margin: auto;
   color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: Fira Sans Condensed, sans-serif;
   font-size: 18px;
   background-color: #1b1919;
   height: 100%;
@@ -83,7 +83,7 @@ ol {
 
 .search-form__fieldset-title {
   color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: Fira Sans Condensed, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -137,7 +137,7 @@ input[type='checkbox']:active + ::after {
 
 .search-form__label-text {
   color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: Fira Sans Condensed, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -150,7 +150,7 @@ input[type='checkbox']:active + ::after {
 .button {
   color: #fff;
   text-align: center;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: Fira Sans Condensed, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -203,8 +203,8 @@ input[type='checkbox']:active + ::after {
 
 .search-form__textfield {
   appearance: none;
-  color: rgba(255, 255, 255, 0.7);
-  font-family: 'Fira Sans Condensed', sans-serif; /* все через inherit*/
+  color: rgb(255 255 255 / 0.7);
+  font-family: Fira Sans Condensed, sans-serif; /* все через inherit*/
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -247,7 +247,7 @@ input[type='checkbox']:active + ::after {
 
 .title {
   color: #fff;
-  font-family: 'Oswald', sans-serif;
+  font-family: Oswald, sans-serif;
   font-size: 75px;
   font-style: normal;
   font-weight: 700;
@@ -258,7 +258,7 @@ input[type='checkbox']:active + ::after {
 
 .content__accent {
   color: #545050;
-  font-family: 'Oswald', sans-serif;
+  font-family: Oswald, sans-serif;
   font-size: 75px;
   font-style: normal;
   font-weight: 700;
@@ -282,6 +282,7 @@ input[type='checkbox']:active + ::after {
   width: 5px;
   background: transparent;
 }
+
 .content__list::-webkit-scrollbar-thumb {
   background-color: black;
 }
@@ -330,7 +331,7 @@ input[type='checkbox']:active + ::after {
 
 .content__video-card-title {
   color: #fff;
-  font-family: 'Oswald', sans-serif;
+  font-family: Oswald, sans-serif;
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
@@ -340,7 +341,7 @@ input[type='checkbox']:active + ::after {
 
 .content__video-card-description {
   color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: Fira Sans Condensed, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
