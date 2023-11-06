@@ -98,7 +98,6 @@ ol {
   display: flex;
   column-gap: 5px;
   align-items: center;
-  width: fit-content;
 }
 
 .search-form__pseudo-checkbox {
@@ -210,6 +209,7 @@ input[type='checkbox']:active + ::after {
   border: none;
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
+  min-width: 225px;
 }
 
 .search-form__textfield:focus {
