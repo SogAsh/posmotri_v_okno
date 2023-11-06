@@ -41,7 +41,7 @@ ol {
 
 .content {
   inline-size: 100%;
-  block-size: 100%;
+  /*block-size: 100%;*/
   display: flex;
   align-items: flex-end;
   gap: 30px;
