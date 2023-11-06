@@ -15,8 +15,7 @@ html {
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
-  /*background-color: #1b1919;*/ /* вернуть !!!*/
-  background-color: #b0b0b0;
+  background-color: #1b1919;
 }
 
 h1,
@@ -40,7 +39,6 @@ ol {
 
 .content {
   inline-size: 100%;
-  /*block-size: 100%;*/
   display: flex;
   align-items: flex-end;
   gap: 30px;
