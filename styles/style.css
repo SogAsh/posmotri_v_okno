@@ -40,7 +40,7 @@ ol {
 
 .content {
   inline-size: 100%;
-  block-size: 100%;
+  /*block-size: 100%;*/
   display: flex;
   align-items: flex-end;
   gap: 30px;
@@ -48,8 +48,8 @@ ol {
 }
 
 .result {
-  width: 711px;
-  height: 456px;
+  /*width: 711px;*/
+  /*height: 456px;*/
   display: flex;
   flex-direction: column;
   row-gap: 16px;
