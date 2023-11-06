@@ -133,6 +133,7 @@ input[type='checkbox']:active + ::after {
   height: 17px;
   margin: 1px;
   background-color: white;
+  text-decoration: none;
 }
 
 .search-form__label-text {
@@ -351,7 +352,7 @@ input[type='checkbox']:active + ::after {
 .content__video-card-thumbnail {
   width: 194px;
   height: 103px;
-  background-size: cover;
+  object-fit: cover;
 }
 
 .visually-hidden {
