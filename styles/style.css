@@ -41,6 +41,7 @@ ol {
 
 .content {
   inline-size: 100%;
+  block-size: 100%;
   display: flex;
   align-items: flex-end;
   gap: 30px;
@@ -224,10 +225,20 @@ input[type='checkbox']:active + ::after {
   display: flex;
   flex-direction: column;
   overflow-y: auto;
-  row-gap: 30px;
   position: relative;
   height: 298px;
-  /*min-width: 399px;*/
+}
+
+.content__list-item:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.content__list-item:nth-child(6n + 7) {
+  margin-top: 30px;
+}
+
+.content__list-item:nth-child(6n + 5) {
+  margin-bottom: 0;
 }
 
 .content__list::-webkit-scrollbar {
