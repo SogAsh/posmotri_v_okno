@@ -233,14 +233,6 @@ input[type='checkbox']:active + ::after {
   margin-bottom: 30px;
 }
 
-.content__list-item:nth-child(6n + 7) {
-  margin-top: 30px;
-}
-
-.content__list-item:nth-child(6n + 5) {
-  margin-bottom: 0;
-}
-
 .content__list::-webkit-scrollbar {
   width: 5px;
   background: transparent;
@@ -251,6 +243,7 @@ input[type='checkbox']:active + ::after {
 }
 
 .content__list-item {
+  width: 399px;
   padding: 2px;
 }
 
